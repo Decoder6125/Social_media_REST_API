@@ -7,12 +7,16 @@ const Navbar = () => {
     return (
         <>
         <div className ="navbar">
-           <Link to="/"><a className = "logo">Instagram</a></Link> 
-            <div className = "nav_items">
-             <div className="icons"><Link to="/Post"><AddAPhotoIcon /></Link></div>   
-             <div className="icons"> <Link to="/Profile"><PersonIcon/></Link> </div>
-                <Link to="/Login"><div className = "button">Login</div></Link>
-            </div>
+          <div class="logo">
+              <Link to="/">Instagram</Link>
+          </div>
+
+          <div class="nav_items">
+              <Link to="/Post"><AddAPhotoIcon/></Link>
+              <Link to="/Profile"><PersonIcon/></Link>
+              <div className ="button"><Link to="/Login">Login</Link></div>
+              
+          </div>
         </div>
         </>
     )
