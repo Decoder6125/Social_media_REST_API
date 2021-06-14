@@ -4,7 +4,16 @@ const Login = () => {
     return (
         <div>
             <br></br><br></br> <br></br><br></br> <br></br><br></br>  <br></br><br></br>
-           <center><h1>Login</h1></center> 
+           <center>
+             <div className="card">
+                 
+                 </div>  
+               
+               
+               
+               
+               
+               </center> 
         </div>
     )
 }
