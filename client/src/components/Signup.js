@@ -1,20 +1,21 @@
 import React from 'react'
 import {Link} from 'react-router-dom';
-const Login = () => {
+const Signup = () => {
     return (
         <div>
           
              <div className="card">
                  <div className="logo">Instagram</div>
-                 <input type="text" placeholder="Email" type="email" />
-                 <input type="password" placeholder="Password" type="Password" />
-                 <input type="submit" value="Login" />
+                 <input placeholder="Username" type="text" />
+                 <input placeholder="Email" type="email" />
+                 <input placeholder="Password" type="Password" />
+                 <input type="submit" value="Signup" />
                  <br></br>
                  
-                 <div className="signin_red">Don't have an account? 
+                 <div className="signin_red">Already have an account? 
                  
                  
-                 <Link to="/Signup">Signup</Link>
+                 <Link to="/Login">Login</Link>
                  
                  
                  
@@ -34,4 +35,4 @@ const Login = () => {
     )
 }
 
-export default Login
+export default Signup

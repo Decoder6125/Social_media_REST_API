@@ -18,7 +18,7 @@
 .navbar .icon a {
   font-family: 'Grand Hotel', cursive;
   font-size: 30px;
-  left: 100px;
+  left: 0;
   top: 0;
   position: fixed;
   background:white;
@@ -32,16 +32,25 @@
 
 .navbar .nav_items {
   position: fixed;
-  width: 100px;
-  top: 0;
+  width: 100%;
+  bottom: 0;
   height: 50px;
-  right: 200px;
+  left: 0;
   line-height: 50px;
   display: flex;
   justify-content: space-between;
 }
 
 .navbar .nav_items a {
+  text-decoration: none;
+  color: grey;
+  line-height: 50px;
+  align-items: center;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.navbar .nav_items .active{
   text-decoration: none;
   color: black;
   line-height: 50px;
@@ -59,17 +68,111 @@
   text-align: center;
   margin-top: 2px;
   position: fixed;
-  right: 100px;
+  right: 0;
 }
 
 .card {
-  width: 30%;
+  width: 100vw;
   position: fixed;
-  left: 35%;
-  top: 100px;
+  left: 0;
+  top: 0;
   justify-content: center;
   transform: translate(-50% -50%);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  height: 400px;
+  height: 100vh;
+  background: white;
   
+}
+
+.card .logo {
+  background: white;
+  font-family: 'Grand Hotel', cursive;
+  font-size: 40px;
+  width: 60%;
+  position: relative;
+  top: 100px;
+  left: 20%;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  align-items: center;
+}
+
+input[type=email], select {
+  position: relative;
+  top: 160px;
+  width: 80%;
+  padding: 8px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  outline: none;
+  left: 10%;
+}
+
+input[type=text], select {
+  position: relative;
+  top: 160px;
+  width: 80%;
+  padding: 8px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  outline: none;
+  left: 10%;
+}
+
+
+input[type=password], select {
+  position: relative;
+  top: 160px;
+  width: 80%;
+  padding: 8px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  outline: none;
+  left: 10%;
+}
+
+input[type=submit] {
+  width: 80%;
+  background-color: #3e91f7;
+  position: relative;
+  top: 160px;
+  left: 10%;
+  color: white;
+  padding: 8px 10px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #2c86f5;
+}
+
+.card .signin_red {
+  background:white;
+  font-size: 15px;
+  color: grey;
+  width: 60%;
+  position: relative;
+  top: 180px;
+  left: 20%;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  align-items: center;
+}
+
+.card .signin_red a {
+  color: #3e91f7;
+  text-decoration: none;
 }

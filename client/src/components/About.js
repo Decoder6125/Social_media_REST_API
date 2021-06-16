@@ -1,12 +1,12 @@
 import React from 'react'
 
-const Post = () => {
+const About = () => {
     return (
         <div>
               <br></br><br></br> <br></br><br></br> <br></br><br></br>  <br></br><br></br>
-           <center><h1>Posts/decoder</h1></center> 
+           <center><h1>About/decoder</h1></center> 
         </div>
     )
 }
 
-export default Post
+export default About
