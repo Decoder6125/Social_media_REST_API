@@ -1,0 +1,16 @@
+.comment {
+   background: none;
+   border-style: none;
+   outline: none;
+   border-bottom: 1px solid grey;
+   padding: 4px 4px;
+   width: 80%;
+}
+
+.submit {
+   width: 40px;
+   height: 40px;
+   border-style: none;
+   background: none;
+  }
+  
